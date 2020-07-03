@@ -1,0 +1,278 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+#bannerImage{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../image/all.jpg);
+    background-size:cover;
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+#co{
+    margin-top: 12vh !important;
+}
+
+#con{
+    margin-top: 20vh !important;
+}
+
+#pager{
+    margin-top: -11vh;
+    margin-left: -13px;
+    position: fixed;
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover   {
+    text-decoration:underline;
+}
+
+.caption> p {
+    text-decoration: none;
+}
+
+.caption>p:hover{
+    text-decoration: none;
+}
+
+
+ol>li{
+    font-size: 20px;
+}
+
+ul>li{
+    font-size: 16px;
+}
+
+.pbook{
+    font-size: 20px;
+}
+
+
+.contact-form{
+    position:relative;
+    padding-bottom:30px;
+}
+.contact-form div{
+    padding:5px 0;
+}
+.contact-form span{
+    display:block;
+    font-size:1em;
+    color: rgb(139, 139, 139);
+    padding-bottom:5px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.contact-form input[type="text"],.contact-form textarea{
+            padding:8px;
+            display:block;
+            width:98%;
+            background:#fcfcfc;
+            border: none;
+            outline:none;
+            color:rgb(139, 139, 139);
+            font-size:0.8125em;
+            font-family:Arial, Helvetica, sans-serif;
+            box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+            -webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+            -moz-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+            -o-box-shadow:inset 0px 0px 3px rgb(199, 199, 199);
+            -webkit-appearance:none;
+}
+.contact-form textarea{
+        resize:none;
+        height:120px;       
+}
+.contact-form input[type="submit"]{
+    font-size: 1em;
+    font-family: 'Ropa Sans', sans-serif;
+    background: #3285d1;
+    background: -moz-linear-gradient(top, #3285d1 0%, #3285d1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3285d1), color-stop(100%,#3285d1));
+    background: -webkit-linear-gradient(top, #3285d1 0%,#3285d1 100%);
+    background: -o-linear-gradient(top, #3285d1 0%,#3285d1 100%);
+    background: -ms-linear-gradient(top, #3285d1 0%,#3285d1 100%);
+    background: linear-gradient(to bottom, #3285d1 0%,#3285d1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3285d1', endColorstr='#3285d1',GradientType=0 );
+    border: #fff 1px solid;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 3px rgb(207, 206, 206);
+    -moz-box-shadow: 0px 0px 3px rgb(207, 206, 206);
+    box-shadow: 0px 0px 3px rgb(207, 206, 206);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 20px;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    float: left;
+    margin-top: 8px;
+    cursor:pointer;
+}
+.contact-form input[type="submit"]:hover{
+    color: #000;
+}
+.contact-form input[type="submit"]:active{
+    background-color:#000;  
+}
+
+.company_address h1{
+    color: rgb(47, 27, 125);
+}
+
+.contact-form h2{
+    color: rgb(47, 27, 125);
+}
+
+.company_address p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.2em 0;
+    font-size: 1.5em;
+    color: rgb(128, 128, 255);
+    line-height: 1.5em;
+}
+.company_address p span{
+    text-decoration:underline;
+    color:rgb(128, 128, 255);
+    cursor:pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+}
+
+
+footer{
+    background-color:#101010;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;    
+    bottom:0;
+}
+
+html { 
+    min-height:100%;
+    position:relative;    
+} 
+
+.footer { 
+    position: absolute; 
+    bottom:0; 
+    right:0;
+    left:0;
+}
+
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}
+
+
+#myCarousel>.carousel-indicators{
+    z-index: 1;
+}
+
+.btn-primary{
+    border-color: #ff3399;
+    background-color: #ff3399;
+}
+
+.thumbnail {
+    border: 4px solid #ff99dd;
+}
+.thumbnail> h2{
+    font-size: 4em;
+    color: rgb(47, 27, 125);
+}
+.thumbnail> p{
+    font-size: 1.5em;
+    color: rgb(65, 65, 156);
+}
+.thumbnail> ul> li{
+    color: rgb(65, 65, 156);
+}
+
+.caption> p {
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+#autoResize{
+    font-size: 3.5em;
+}
+
+.carousel-caption{
+    top: 5%;
+    color: #4a87c3;
+}
+
+.carousel-caption> h3{
+    font-size: 4em;
+
+}
+
+.carousel-caption> p{
+    font-size: 2.3em;
+}
+
+.jumbotron> h1{
+    color: rgb(47, 27, 125);
+}
+
+.jumbotron> h2{
+    color: rgb(47, 27, 125);
+}
+.jumbotron> ol> li{
+    color: rgb(65, 65, 156);
+}
+
+.jumbotron> p{
+    color: rgb(65, 65, 156);
+}
+
+.badge{
+    float: left;
+    padding: 0px 5px;
+    color: #081180;
+    background-color: #f5de0c;
+}

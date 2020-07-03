@@ -1,0 +1,205 @@
+
+div.my_product{
+  margin: 4vh 3vw;
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 70%;
+  float: left;
+  border-radius: 20px;
+}
+div.my_product a{
+	color: #86bfcb;
+}
+
+div.my_product img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.abeg{
+  	width: 10vw;
+    height: 45%;
+    float: left;
+    margin: 3vh 1vw;
+}
+
+div.product_name {
+	width: 100%;
+    padding: 15px 0px 0px;
+    text-align: center;
+}
+
+u{
+	color: #86bfcb;
+}
+
+
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 20px;
+	text-decoration: underline;
+}
+
+.containe{
+  width: 96.5vw;
+    height: 75vh;
+    margin: 10vh 0px 0px 2vw;
+    
+    
+    position: absolute; 
+    
+    padding: 0px;
+    color: #86bfcb;
+}
+
+.containe .abeg .my_product{
+  /*margin: 4vh 3vw;*/
+  border: none;
+  width: 60%;
+  height: 70%;
+  position: relative;
+  
+}
+
+.containe .abeg div.my_product img {
+    width: 100%;
+	height: 100%;
+}
+.containe .abeg{
+  	width: 18%;
+    height: 60%;
+    position: absolute;
+    margin: 1vh 0px 0px 5vw;
+}
+
+div.product_price {
+    padding: 15px 0px 0px 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.details{
+	width: 50%;
+	height: 50%;
+	margin: 1vh 5vw 0px 0px;
+	float: right;
+}
+
+.comment{
+	width: 99%;
+	height: 10%;
+	margin: 8vh 0vw 0px 0px;
+	position: relative;
+	display: inline-block;
+}
+
+.comment h3 {
+	margin: 0px 0px 10px 10vw;
+}
+
+.comment .msg{
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	border: 1px solid #86bfcb;
+	margin: 2vh 2vw 0px;
+}
+
+.feed{
+	width: 10vw;
+	height: 30vh;
+	margin: 15vh 0px 0px 3vw;
+	float: left;
+}
+
+.feed a input{
+	width: 100%;
+	height: 15%;
+	margin-top: 5vh;
+	background-color: #28484d;
+    border: 1px solid #86bfcb;
+    color: #86bfcb;
+
+}
+
+.msg h4{
+	margin: 2px;
+}
+
+
+.comment .msg p{
+	display: inline-block;
+	margin: 0px;
+}
+
+.tb1 {
+	margin: 0px 0px 0px 1vw;
+	position: absolute;
+}
+
+.tb2 {
+	margin: 0px 0px 0px 15vw;
+	position: absolute;
+}
+
+.tb3 {
+	margin: 0px 0px 0px 30vw;
+	position: absolute;
+}
+
+.tb4 {
+	margin: 0px 0px 0px 45vw;
+	position: absolute;
+}
+
+
+/*div{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-left: 1vw;
+}*/
+
+.fm_img{
+  width: 45vw;
+  height: 65vh;
+  background-color: transparent;
+  padding:7vh 0vw 0vh 25vw;
+}
+
+.order_fm{
+  width: 100%;
+  margin: 5vh 0vw 3vh 0vw;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 12px 20px 12px 50px;
+  border: 1px solid #86bfcb;
+}
+
+input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 5vh 0vw 0vh 35vh;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+
