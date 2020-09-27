@@ -53,7 +53,7 @@ require '../top2.php';
                             <center>
                                 <div class="caption">
                                     <h3>Ruby 3f</h3>
-                                    <p>Price: #50000.00</p>
+                                    <p>Price: #60,000.00</p>
                                     
                                     <?php
                                             if(check_if_added_to_cart("58B20HL")){

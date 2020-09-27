@@ -52,7 +52,7 @@ require '../top2.php';
                             <center>
                                 <div class="caption">
                                     <h3>Executive 2F</h3>
-                                    <p>Price: #56000.00</p>
+                                    <p>Price: #65,000.00</p>
                                     <?php
                                             if(check_if_added_to_cart("58B15HL")){
                                                 echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';

@@ -187,13 +187,13 @@ function service_booking($name, $complaint, $email, $address, $number, $service,
 		$email 					= escape($_POST['email']);
 		
 
-		$sql = "INSERT INTO sevicing(service_name, service_email, service_phone, service_address, complaint, homeService, service) VALUE('$name','$email', '$number', '$address', '$complaint', '$hmservice', '$service') " ;
+		$sql = "INSERT INTO servicing(service_name, service_email, service_phone, service_address, complaint, homeService, service) VALUE('$name','$email', '$number', '$address', '$complaint', '$hmservice', '$service') " ;
 
 		$result = query($sql);
 		confirm($result);
 
 
-		$to = 'eurojap@gmail.com';
+		$to = 'jlrabdulazeez@gmail.com';
 
 		$subject = 'Service Booking';
 
@@ -319,7 +319,7 @@ function contact_form($name, $email, $number, $subject){
 		confirm($result);
 
 
-		$to = 'eurojap@gmail.com';
+		$to = 'jlrabdulazeez@gmail.com';
 
 		$subject = 'Contact us page';
 
@@ -449,7 +449,7 @@ function order_booking($name, $email, $address, $number){
 		confirm($result);
 
 
-		$to = 'eurojap@gmail.com';
+		$to = 'jlrabdulazeez@gmail.com';
 
 		$subject = 'Order Booking';
 

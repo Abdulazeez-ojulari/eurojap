@@ -53,7 +53,7 @@ require '../top2.php';
                             <center>
                                 <div class="caption">
                                     <h3>Ruby 4f</h3>
-                                    <p>Price: #56000.00</p>
+                                    <p>Price: #65,000.00</p>
                                     <?php
                                             if(check_if_added_to_cart("BYB72")){
                                                 echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';

@@ -9,14 +9,13 @@ $sql = "SELECT * FROM items WHERE item_id = '$item_id'";
     $item_id = $row['item_id'];
     $name = $row['item_name'];
     $price = $row['item_price'];
-    $image = $row['item_image'];
+    // $image = $row['item_image'] 'image'=>$image;
     $cartArray = array(
         $item_id=>array(
         'name'=>$name,
         'item_id'=>$item_id,
         'price'=>$price,
-        'quantity'=>1,
-        'image'=>$image)
+        'quantity'=>1)
     );
 
 if(!empty($_SESSION['cart'])) {
@@ -54,7 +53,7 @@ require '../top2.php';
                             <center>
                                 <div class="caption">
                                     <h3>Arctic 1B</h3>
-                                    <p>Price: #62,000.00</p>
+                                    <p>Price: #75,000.00</p>
                                     <?php
                                             if(check_if_added_to_cart("CWM16BLB")){
                                                 echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';

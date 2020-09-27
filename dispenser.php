@@ -62,7 +62,7 @@ if(!empty($_SESSION['cart'])) {
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-3">
                         <div class="thumbnail">
                             <a href="dispenser/executive2c.php">
                                 <img src="image/executive2c.jpg" alt="Cannon">
@@ -89,7 +89,7 @@ if(!empty($_SESSION['cart'])) {
                             </center>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-3">
                         <div class="thumbnail">
                             <a href="dispenser/ruby4f.php">
                                 <img src="image/ruby4f3.jpg" alt="Sony DSLR">
@@ -116,7 +116,7 @@ if(!empty($_SESSION['cart'])) {
                             </center>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-3">
                         <div class="thumbnail">
                             <a href="dispenser/arctic1b.php">
                                 <img src="image/arctic1b2.jpg" alt="Sony DSLR">
@@ -143,7 +143,7 @@ if(!empty($_SESSION['cart'])) {
                             </center>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-3">
                         <div class="thumbnail">
                             <a href="dispenser/executive1c.php">
                                 <img src="image/executive1c2.jpg" alt="Olympus">
